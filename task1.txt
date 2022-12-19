@@ -27,13 +27,14 @@ http://162.55.220.72:5005/terminal-hw-request - curl http://162.55.220.72:5005/t
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 -  
 cat >> script.txt
 #!/bin/bash
+mkdir dir1
 cd dir1
 mkdir d1 d2 d3
 cd d1
 touch f1.txt f2.txt f3.txt j1.json j2.json
 mkdir a1 a2 a3
 ls -la
-mv f1.txt f2.txt /path-for-move/
+mv f1.txt f2.txt ./a1
 Ctrl+c
 Написать в терминале, чтобы сделать исполняемым скрипт:
 chmod +x ./script.txt
