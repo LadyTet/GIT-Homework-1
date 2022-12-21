@@ -1,0 +1,9 @@
+1. ID
+2. Enviroment
+3. Title
+4. STR
+5. AR
+6. ER
+7. Attachments
+8. Severity
+9. Priority
