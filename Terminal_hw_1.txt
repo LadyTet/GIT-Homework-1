@@ -1,5 +1,5 @@
-1. Check your location 
-pwd
+. Check your location 
+pwwd
 2. Create a folder 
 mkdir dir1
 3. Open the folder 
@@ -39,10 +39,11 @@ date
 
 =========
 
-Задание *
-1) Отправить http запрос на сервер.
-http://162.55.220.72:5005/terminal-hw-request - curl http://162.55.220.72:5005/terminal-hw-request
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 -  
+Task with *
+1. Send http request to the server.
+http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5005/terminal-hw-request
+2. Write a script that will make authomatically the tasks 3, 4, 5, 6, 7, 8, 13 below  
 cat >> script.txt
 #!/bin/bash
 mkdir dir1
@@ -54,7 +55,9 @@ mkdir a1 a2 a3
 ls -la
 mv f1.txt f2.txt ./a1
 Ctrl+c
-Написать в терминале, чтобы сделать исполняемым скрипт:
+
+3.Activate this script:
 chmod +x ./script.txt
-Написать в терминале, чтобы запустить скрипт:
+
+Run this script:
 . /script.txt
