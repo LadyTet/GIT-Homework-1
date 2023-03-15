@@ -56,8 +56,8 @@ ls -la
 mv f1.txt f2.txt ./a1
 Ctrl+c
 
-3.Activate this script:
+3. Activate this script:
 chmod +x ./script.txt
 
-Run this script:
+4. Run this script:
 . /script.txt
