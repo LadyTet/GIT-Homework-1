@@ -60,7 +60,7 @@ grep -ir sec
 
 26. Find lines in files where there is only a combination of letters “sec” in any case in the current folder
 
-27. Find lines in files where there is a combination of letters “second” in the current folder 
+27. Find lines in files where there is a combination of letters “second” in the current folder:
 grep -w second
 28. Find lines in files where there is a combination of letters “second” in any case in the current folder: 
 grep -wi second
