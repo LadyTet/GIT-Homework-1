@@ -1,40 +1,41 @@
-. Check your location 
-pwwd
-2. Create a folder 
+1. Check your location :
+pwd
+2. Create a folder: 
 mkdir dir1
-3. Open the folder 
+3. Open the folder:
 cd dir1
-4. Create 3 folders 
+4. Create 3 folders: 
 mkdir d1 d2 d3
-5. Open any folder
+5. Open any folder:
 cd d1
-6. Create 5 files (3 txt, 2 json) 
+6. Create 5 files (3 txt, 2 json): 
 touch f1.txt f2.txt f3.txt j1.json j2.json
-7. Create 3 folders 
+7. Create any 3 folders: 
 mkdir a1 a2 a3
-8. Display folder contents 
+8. Display folder contents: 
 ls -la
-9. Open any txt file
+9. Open any text file
 cat >> f1.txt
 10. Write any text in txt file
-11. Save changes in the file and exit file 
+11. Save changes in the file and exit file: 
 Ctrl+C
-12. Exit from folder on higher level 
+12. Exit from folder on a higher level: 
 cd ..
-13. Move any 2 files you created in any other folder
+13. Move any 2 files you created to any other folder:
 mv f1.txt f2.txt /path-for-move/
-14. Copy any 2 files you created in any other folder 
+14. Copy any 2 files you created to any other folder: 
 cp f1.txt f2.txt /path-for-move/
-15. Find the file by file name 
+15. Find the file by its name: 
 find . -name f3.txt
-16. Look at the file in real-time 
+16. Look at the file in real-time: 
 Tail -f f1.txt
-17. Output the first few lines from a text file 
+17. Output the first few lines from a text file:
 head -2 f1.txt
-18. Output the last few lines from a text file- tail -1 f1.txt
-19. View the contents of a long file 
+18. Output the last few lines from a text file:
+tail -1 f1.txt
+19. View the contents in a long file: 
 less f1.txt
-20. Output the date and time
+20. Output the date and time:
 date
 
 =========
